@@ -1,0 +1,15 @@
+D:\Data\Store Manager v1\Store Manager v1\bin\Debug\Store Manager v1.exe
+D:\Data\Store Manager v1\Store Manager v1\bin\Debug\Store Manager v1.pdb
+D:\Data\Store Manager v1\Store Manager v1\obj\Debug\Store Manager v1.csprojResolveAssemblyReference.cache
+D:\Data\Store Manager v1\Store Manager v1\obj\Debug\Store_Manager_v1.frLoggin.resources
+D:\Data\Store Manager v1\Store Manager v1\obj\Debug\Store_Manager_v1.Properties.Resources.resources
+D:\Data\Store Manager v1\Store Manager v1\obj\Debug\Store Manager v1.csproj.GenerateResource.Cache
+D:\Data\Store Manager v1\Store Manager v1\obj\Debug\Store Manager v1.exe
+D:\Data\Store Manager v1\Store Manager v1\obj\Debug\Store Manager v1.pdb
+D:\Data\Store Manager v1\Store Manager v1\obj\Debug\Store_Manager_v1.frMain.resources
+D:\Data\Store Manager v1\Store Manager v1\obj\Debug\Store_Manager_v1.frResetPass.resources
+D:\Data\Store Manager v1\Store Manager v1\obj\Debug\Store_Manager_v1.frBanHang.resources
+D:\Data\Store Manager v1\Store Manager v1\obj\Debug\Store_Manager_v1.frChiTietHD.resources
+D:\Data\Store Manager v1\Store Manager v1\obj\Debug\Store_Manager_v1.frNhapHang.resources
+D:\Data\Store Manager v1\Store Manager v1\obj\Debug\Store_Manager_v1.frChiTietHDNHAP.resources
+D:\Data\Store Manager v1\Store Manager v1\bin\Debug\Store Manager v1.exe.config

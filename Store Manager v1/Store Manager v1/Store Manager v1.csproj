@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3EEBE134-6FC6-4E9E-B15A-86D176395DA9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Store_Manager_v1</RootNamespace>
+    <AssemblyName>Store Manager v1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChitietHD.cs" />
+    <Compile Include="Get_database.cs" />
+    <Compile Include="frBanHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frBanHang.Designer.cs">
+      <DependentUpon>frBanHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frChiTietHD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frChiTietHD.Designer.cs">
+      <DependentUpon>frChiTietHD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frChiTietHDNHAP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frChiTietHDNHAP.Designer.cs">
+      <DependentUpon>frChiTietHDNHAP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frLoggin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frLoggin.Designer.cs">
+      <DependentUpon>frLoggin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frMain.Designer.cs">
+      <DependentUpon>frMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frNhapHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frNhapHang.Designer.cs">
+      <DependentUpon>frNhapHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frResetPass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frResetPass.Designer.cs">
+      <DependentUpon>frResetPass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Get_Date.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sanpham_get.cs" />
+    <Compile Include="Support.cs" />
+    <EmbeddedResource Include="frBanHang.resx">
+      <DependentUpon>frBanHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frChiTietHD.resx">
+      <DependentUpon>frChiTietHD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frChiTietHDNHAP.resx">
+      <DependentUpon>frChiTietHDNHAP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frLoggin.resx">
+      <DependentUpon>frLoggin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frMain.resx">
+      <DependentUpon>frMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frNhapHang.resx">
+      <DependentUpon>frNhapHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frResetPass.resx">
+      <DependentUpon>frResetPass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banhxe1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banhxe2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banhxe3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vector-background-cong-nghe-so-2326.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nenv2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nennen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nenden.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manhinhchao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+    <Content Include="Resources\qt.png" />
+    <None Include="Resources\qt1.png" />
+    <None Include="Resources\nendep.png" />
+    <None Include="Resources\nenhd.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
